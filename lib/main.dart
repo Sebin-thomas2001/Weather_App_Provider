@@ -19,6 +19,9 @@ class MyApp extends StatelessWidget {
       appBarTheme: const AppBarTheme(
         backgroundColor: Colors.transparent
       ),
+      iconTheme: const IconThemeData(
+        color: Colors.white
+      )
       ),
       home: const HomePage(),
     );
