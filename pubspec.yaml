@@ -13,6 +13,10 @@ dependencies:
 
 
   cupertino_icons: ^1.0.8
+  intl: ^0.20.2   # date and time
+  geolocator: ^8.0.0
+  geocoding: ^2.0.0
+  provider: ^6.1.5
 
 dev_dependencies:
   flutter_test:

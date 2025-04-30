@@ -14,3 +14,21 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+## Add Location
+
+Add two packeages 
+1.geolocator(get the latitude,longitude)
+2.geocoding (decode the code and get the location)
+
+Add Permisson 
+
+Android=>App=>src=>main=>AndroidManifest.xml
+
+fist add
+<!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+
+second
+
+<!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
